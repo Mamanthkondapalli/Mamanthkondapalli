@@ -32,8 +32,8 @@ I build end-to-end data pipelines, design star-schema warehouses, and turn raw d
 | Project | What it does | Stack |
 |---|---|---|
 | [**inventory-forecasting-optimization**](https://github.com/Mamanthkondapalli/inventory-forecasting-optimization) | Retail demand forecasting with Prophet (weekly MAPE < 5%) driving safety-stock and reorder-point optimization — stockouts eliminated in simulation. Streamlit dashboard + CI. | `Python` `Prophet` `SQL` `Streamlit` |
-| [**predictive-healthcare-analytics**](https://github.com/Mamanthkondapalli/predictive-healthcare-analytics) | Chronic disease risk prediction platform (AUC 0.83) with clinical feature engineering, explainable per-patient risk factors, what-if intervention simulator, and a REST scoring API. | `Scikit-learn` `Flask` `PostgreSQL` |
-| [**customer-churn-analysis**](https://github.com/Mamanthkondapalli/customer-churn-analysis) | Churn pipeline on 15K telco customers: engineered features, benchmarked LogReg / Random Forest / GBM (85%+ accuracy, 0.91 AUC), segment-level retention strategies with revenue-at-risk. | `Python` `Scikit-learn` `SQL` |
+| [**healthcare-risk-platform**](https://github.com/Mamanthkondapalli/healthcare-risk-platform) | Chronic-disease risk platform on 253K CDC BRFSS records: calibrated XGBoost (AUC 0.79/0.81), SHAP per-patient explanations, clinical rule layer, role-based Flask app with Chart.js dashboards, REST API, Docker + Postgres. | `Scikit-learn` `XGBoost` `Flask` `PostgreSQL` |
+| [**Customer-Churn-Prediction-Retention-Analysis**](https://github.com/Mamanthkondapalli/Customer-Churn-Prediction-Retention-Analysis) | End-to-end churn system: feature engineering, LogReg vs Random Forest benchmark (86.3% accuracy, 0.885 ROC-AUC), risk segmentation, and data-driven retention recommendations with CI. | `Python` `Scikit-learn` `SQL` |
 | [**time-series-anomaly-detector**](https://github.com/Mamanthkondapalli/time-series-anomaly-detector) | Ensemble anomaly detection for IoT sensor streams — Z-Score, Rolling IQR, and Isolation Forest with majority voting. F1 ≈ 0.89. | `Python` `Scikit-learn` |
 
 ### ⚙️ MLOps & AI Engineering
